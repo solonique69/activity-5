@@ -1,0 +1,94 @@
+.body {
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+}
+
+#header {
+  text-align: center;
+  border-width: 100%;
+  border-top: 64px;
+  padding: 50px;
+  font-size: 40px;
+}
+
+#main-content {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding: 92px;
+  text-align: center;
+}
+
+.photo-part {
+  overflow: hidden;
+}
+
+.text-part {
+  justify-content: center;
+  padding: 30px;
+}
+
+.text-part h2 {
+  position: absolute;
+  width: 174px;
+  height: 35px;
+  left: 665px;
+  top: 179px;
+  
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.text-part p {
+  width: 513px;
+  height: 168px;
+  left: 551px;
+  top: 301px;
+  margin-bottom: 40px;
+
+  font-size: 18px;
+  line-height: 21px;
+}
+
+#form-part {
+  margin-left: 200px;
+  margin-bottom: 20px;
+  max-height: 652px;
+  box-sizing: border-box;
+  padding: 92px;
+  width: 852px;
+  border: 1px solid #0D0C0C
+}
+
+#fname {
+  width: 663px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+#lname {
+  width: 663px;
+  height: 20px;
+  margin-bottom: 20px;
+}
+
+#ymessage {
+  width: 663px;
+  height: 160px;
+  margin-bottom: 20px;
+}
+
+.submit-icon {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.submit-icon button {
+  background: blue;
+  width: 30%;
+  padding: 8px 40px;
+  border: 1px solid blue;
+  border-radius:  10px 0px 10px 0px;
+  color: white;
+}
